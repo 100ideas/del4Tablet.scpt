@@ -162,7 +162,7 @@ try
 	do shell script (("sudo rm -Rf  '/System/Library/Extensions Disabled/SiLabsUSBDriver.kext'") as text) with administrator privileges
 end try
 ---20150704追加
-set theMes to "\n処理を終了しました。機器の電源OFF〜ON\n再起動をしましょう\n" as text
+set theMes to "\nProcessing is ended. Power cycle OFF ~ ON to complete unloading extensions. \ n Let's reboot\n" as text
 log theMes
 return theMes
 ---
